@@ -305,9 +305,9 @@
     margin: 0;
   }
   .address-text {
+    font-style: normal;
     line-height: 1.714;
     color: var(--white);
-    font-style: normal;
     margin: 0;
   }
   .address-link {
