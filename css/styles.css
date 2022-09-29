@@ -28,6 +28,7 @@
   .container {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
   }
   
   .blue-text:hover,
@@ -51,12 +52,13 @@
   .logo-box {
     padding-top: 24px;
   }
+  
   .logo-style {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--black);
   }
@@ -140,7 +142,6 @@
   .button-portfolio {
     background-color: var(--notwhite);
     border-width: 0;
-    height: 38px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.625;
@@ -159,6 +160,12 @@
     border-radius: 4px;
   }
   /* portfolio project */
+  .cards-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100%-60px) / 3;
+  }
+  
   .project-list {
     display: flex;
     gap: 30px;
@@ -166,9 +173,6 @@
     margin: 0px;
     list-style: none;
     padding: 0 0px 94px;
-  }
-  .portfolio-border {
-    border-bottom: 1px solid var(--productborder);
   }
   .project-title {
     letter-spacing: 0.06em;
