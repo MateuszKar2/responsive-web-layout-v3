@@ -160,13 +160,10 @@
     border-radius: 4px;
   }
   /* portfolio project */
-  .cards-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc(100%-60px) / 3;
-  }
+   
+    
   
-  .project-list {
+   .project-list {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
