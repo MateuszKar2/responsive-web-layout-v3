@@ -49,11 +49,8 @@ body {
 }
 .header-style {
   display: flex;
+  padding: 24px 15px 25px 15px;
 }
-.logo-box {
-  padding-top: 24px;
-}
-
 .logo-style {
   font-family: "Raleway";
   font-style: normal;
@@ -79,20 +76,19 @@ body {
   display: flex;
   list-style: none;
   gap: 46px;
-  margin: right;
   align-content:center;
   margin-left: 93px; 
-  margin-top:32px;
- 
-}
+ }
+ .menu {
+  display: flex;
+  align-content: center;
+ }
 .contact-style {
   gap: 50px;
   display: flex;
   list-style: none;
-  margin: left;
   align-content:center;
   margin-left: 227px;
-  margin-top:32px;
 }
 
 .contact-link-style {
@@ -182,35 +178,40 @@ figcaption {
     padding: 0;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 img {
     display: block;
 }
+
+.caption-border {
+  padding: 20 24px;
+  font:Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0,03em;
+  color: #757575;
+  border-right-width: 70px;
+  border-bottom-width: 322px;
+  border-left-width: 70px;
+}
  .cards-box {
-    flex-wrap: wrap;
-    display: flex;
-    gap: 30px;
-    align-content: stretch;
-    flex-wrap: wrap;
-    margin: 0px;
-    list-style: none;
-    padding: 0 0px 94px;
-    color: var(--notblack);
-  }
-
-  .cards-items {
-    flex-basis: calc((100% - 60px) / 3);
-  }
-
-.project-list {
+  flex-wrap: wrap;
   display: flex;
   gap: 30px;
+  align-content: stretch;
   flex-wrap: wrap;
   margin: 0px;
   list-style: none;
   padding: 0 0px 94px;
-}
+  color: var(--notblack);
+  }
+
+  .cards-items {
+  flex-basis: calc((100% - 60px) / 3);
+  }
 
 .project-title {
   font-family: 'Roboto';
@@ -263,7 +264,7 @@ img {
   line-height: 1.172;
   text-align: center;
   margin: 0 auto;
-  padding: 0 424px 50px;
+  padding: 0 50px;
 }
 .service-list {
   display: flex;
