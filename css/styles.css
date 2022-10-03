@@ -50,6 +50,12 @@ body {
 .header-style {
   display: flex;
   padding: 24px 15px 25px 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-style-container{
+ display: flex;
+ align-items: center;
 }
 .logo-style {
   font-family: "Raleway";
@@ -76,7 +82,6 @@ body {
   display: flex;
   list-style: none;
   gap: 46px;
-  align-content:center;
   margin-left: 93px; 
  }
  .menu {
@@ -87,10 +92,8 @@ body {
   gap: 50px;
   display: flex;
   list-style: none;
-  align-content:center;
   margin-left: 227px;
 }
-
 .contact-link-style {
   color: var(--grey);
   font-weight: 500;
@@ -186,17 +189,16 @@ img {
 
 .caption-border {
   padding: 20 24px;
-  font:Roboto;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0,03em;
+  letter-spacing: 0.03em;
   color: #757575;
-  border-right-width: 70px;
-  border-bottom-width: 322px;
-  border-left-width: 70px;
+  border: left  1px solid #EEEEEE;
+  border: right 1px solid #EEEEEE;
+  border: bottom 1px solid #EEEEEE;
 }
+   
+
  .cards-box {
   flex-wrap: wrap;
   display: flex;
@@ -247,15 +249,18 @@ img {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 3px;
+ 
 }
-.speciality-list {
+.specjality-list {
   display: flex;
   list-style: none;
   gap: 30px;
   justify-content: center;
   margin: 0;
-  padding: 94px 15px;
-}
+  padding: 94px, 15px;
+   
+} 
+
 /* service */
 .service-header {
   color: var(--notblack);
