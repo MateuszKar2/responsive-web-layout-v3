@@ -92,7 +92,6 @@ body {
   gap: 50px;
   display: flex;
   list-style: none;
-  margin-left: 227px;
 }
 .contact-link-style {
   color: var(--grey);
@@ -193,9 +192,9 @@ img {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
-  border: left  1px solid #EEEEEE;
-  border: right 1px solid #EEEEEE;
-  border: bottom 1px solid #EEEEEE;
+  border-left:  1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
 }
    
 
@@ -211,7 +210,7 @@ img {
   color: var(--notblack);
   }
 
-  .cards-items {
+ .cards-items {
   flex-basis: calc((100% - 60px) / 3);
   }
 
@@ -249,8 +248,21 @@ img {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 3px;
- 
-}
+  
+ }
+ .short-article-text {
+  width: 270px;
+  height: 75px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+   
+  letter-spacing: 0.03em;
+ }
+   
+
+
 .specjality-list {
   display: flex;
   list-style: none;
@@ -283,15 +295,22 @@ img {
 .team-background {
   background-color: var(--notwhite);
 }
+
 .team-header {
-  color: var(--notblack);
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--notblack);
   margin: 0;
-  padding: 94px 495px 50px;
+  padding-top: 94px; 
+  padding-bottom: 50px;
 }
+
+
 .team-list {
   display: flex;
   list-style: none;
