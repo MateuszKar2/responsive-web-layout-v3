@@ -42,21 +42,19 @@ body {
 
 
 /* header */
+ 
 .header {
   width: 1200 px;
   border-bottom: 1px solid #ececec;
   margin: 0 auto;
   align-content: center;
 }
-.header-style {
+.header-style-container {
   display: flex;
-  padding: 24px 15px 25px 15px;
+  padding: 24px 15px 25px 15px; 
   align-items: center;
   justify-content: space-between;
-}
-.header-style-container{
- display: flex;
- flex-direction: row;
+  flex-direction: row;
 }
 .logo-style {
   font-family: "Raleway";
@@ -93,6 +91,7 @@ body {
   gap: 50px;
   display: flex;
   list-style: none;
+  margin-left: auto;
 }
 .contact-link-style {
   color: var(--grey);
