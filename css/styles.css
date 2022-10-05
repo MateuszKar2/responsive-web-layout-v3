@@ -39,12 +39,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.wrapper {
-  width: 1200 px;
-  border-bottom: 1px solid #ececec;
-  margin: 0 auto;
-  align-content: center;
-}
+
 
 /* header */
 .header {
